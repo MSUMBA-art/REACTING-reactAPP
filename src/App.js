@@ -37,6 +37,12 @@ function App() {
     <div >
       
       <h1 className="heading" style={customStyle}>{greetings}</h1>
+      <h3>Welcome to Alexander's Favorite Food</h3>
+      <ul>
+        <li>Salad</li>
+        <li>Pasta</li>
+        <li>Fruits</li>
+      </ul>
       <p>Created by {name.fName + " " + name.lName}</p>
       <p>All Rights Reserved {year}</p>
     </div>
