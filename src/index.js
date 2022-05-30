@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "./styles.css";
 import App from './components/App';
+import pi, {doublePI, triplePI} from './math';
 //import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
@@ -9,6 +10,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <ul>
+      <li>{pi}</li>
+      <li>{doublePI()}</li>
+      <li>{triplePI()}</li>
+    </ul>
   </React.StrictMode>
 );
 

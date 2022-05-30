@@ -11,7 +11,6 @@ function App() {
       <HeadingOne />
       <Heading />
       <List />
-      <List />
       <NameCopyright />
     </div>
   );
