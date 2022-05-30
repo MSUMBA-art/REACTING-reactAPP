@@ -19,6 +19,13 @@ ul {
   font-size: larger;
 }
 
+ol {
+  color: rgb(98, 0, 255);
+  font-size: larger;
+}
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
